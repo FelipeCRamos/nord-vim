@@ -1,5 +1,6 @@
 " Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
 " Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+" Tweaked by FelipeCRamos on August 2019 <felipecramos00@gmail.com>
 
 " Project: Nord Vim
 " Repository: https://github.com/arcticicestudio/nord-vim
@@ -16,10 +17,15 @@ let g:colors_name = "nord"
 let s:nord_vim_version="0.12.0"
 set background=dark
 
-let s:nord0_gui = "#2E3440"
+" Changed to a darker tone, before: #2E3440
+let s:nord0_gui = "#1C1F27"  
+
 let s:nord1_gui = "#3B4252"
 let s:nord2_gui = "#434C5E"
-let s:nord3_gui = "#4C566A"
+
+" Changed to a darker tone, before: #4C566A
+let s:nord3_gui = "#222630"
+
 let s:nord3_gui_bright = "#616E88"
 let s:nord4_gui = "#D8DEE9"
 let s:nord5_gui = "#E5E9F0"
@@ -558,13 +564,6 @@ call s:hi("ALEWarningSign", s:nord13_gui, "", s:nord13_term, "", "", "")
 call s:hi("ALEErrorSign" , s:nord11_gui, "", s:nord11_term, "", "", "")
 call s:hi("ALEWarning" , s:nord13_gui, "", s:nord13_term, "", "undercurl", "")
 call s:hi("ALEError" , s:nord11_gui, "", s:nord11_term, "", "undercurl", "")
-
-" Coc
-" > neoclide/coc
-call s:hi("CocWarningSign", s:nord13_gui, "", s:nord13_term, "", "", "")
-call s:hi("CocErrorSign" , s:nord11_gui, "", s:nord11_term, "", "", "")
-call s:hi("CocInfoSign" , s:nord8_gui, "", s:nord8_term, "", "", "")
-call s:hi("CocHintSign" , s:nord10_gui, "", s:nord10_term, "", "", "")
 
 " GitGutter
 " > airblade/vim-gitgutter
