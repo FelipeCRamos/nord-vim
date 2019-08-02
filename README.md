@@ -26,7 +26,7 @@ To automatically download and activate Nord Vim, follow the install instructions
 
 1. add `Plug 'arcticicestudio/nord-vim'` to your [`vimrc`][vimhelp-vimrc] within _vim-plug_'s plugin loading function
 2. run the `:PlugInstall` command in Vim
-3. activate the theme by adding `colorscheme nordvimdarker` to the [vimrc][vimhelp-vimrc] or change it on-the-fly by running `:colorscheme nord`
+3. activate the theme by adding `colorscheme nord` to the [vimrc][vimhelp-vimrc] or change it on-the-fly by running `:colorscheme nord`
 
 <p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/vim/installation-vim-plug.png"/></p>
 
