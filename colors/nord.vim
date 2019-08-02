@@ -13,7 +13,7 @@ if version > 580
   endif
 endif
 
-let g:colors_name = "nord"
+let g:colors_name = "nordvimdarker"
 let s:nord_vim_version="0.12.0"
 set background=dark
 
@@ -22,10 +22,7 @@ let s:nord0_gui = "#1C1F27"
 
 let s:nord1_gui = "#3B4252"
 let s:nord2_gui = "#434C5E"
-
-" Changed to a darker tone, before: #4C566A
-let s:nord3_gui = "#222630"
-
+let s:nord3_gui = "#4C566A"
 let s:nord3_gui_bright = "#616E88"
 let s:nord4_gui = "#D8DEE9"
 let s:nord5_gui = "#E5E9F0"
